@@ -2,29 +2,68 @@
 <html>
 
 <head>
-    <link rel="icon" type="image/png" href="XO.png">
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd</title>
+    <style>
+        body {
+            font-family: Arial, Arial;
+        }
 
-    <title>
-        The Weeknd
-    </title>
+        .custom-audio {
+        width: 100%; /* Make it take full width or adjust as needed */
+        max-width: 300px; /* Limit the maximum width */
+        margin: 20px auto; /* Center it horizontally and add space around */
+        display: block; /* Make sure it's treated as a block element */
+        background-color: #ffffff; /* Change the background color */
+        border-radius: 5px; /* Rounded corners */
+        }
+
+        .center-container {
+            text-align: center; /* Center all text inside this div */
+        }
+
+        .center-container a{
+            display: inline-block;
+        }
+        img {
+            display: block; /* Treat image as block element */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        audio {
+            display: block;
+            margin: 20px auto; /* Center the audio player */
+        }
+    </style>
+    <link rel="icon" type="image/png" href="XO.png">
+    
+   
 </head>
 
 <body>
-    
-    <h1> Tears in the rain </h1>
-    <h3> The Weeknd </h3>
-    
-    <a href="https://youtu.be/LceUbSZD_vk?si=9HKf1eyQmx5CSPLJ" >
+    <div class="center-container">
+    <h1 align="center"> Tears in the rain </h1>
+    <h2 align="center"> ------------------------- </h2>
+    <h3 align="center"> The Weeknd </h3>
+</div>
+    <a href="https://www.instagram.com/theweeknd/" target="_blank">
+        <button style="font-size: 10; background-color: rgb(224, 33, 71); color: white; border-radius: 25px; align-items: center;" >Instagram</button>
+    </a>
+    <div class="center-container">
+    <a href="https://youtu.be/LceUbSZD_vk?si=9HKf1eyQmx5CSPLJ" target="_blank" dis>
     <img src="Kissland.png">
     </a>
+</div>
+    </body>
     <br><br>
-   <audio src="TITR.mp3" controls>   </audio> 
+   <audio src="TITR.mp3" controls class="custom-audio">   </audio> 
     
     <br>
     <hr>
     <br>
-    <pre>
+    <pre align="center">
+        <b>
     They all feel the same
     Adjust to the fame
     Cause no one will love you, like her
@@ -115,8 +154,9 @@
     So sad it had to be this
     She forgot the good things about me
     She let it slip away, away, away
+    </b>
 
-
+   
        </pre>
 </body>
 
